@@ -21,5 +21,25 @@ namespace CAG_CHANGE_LINE
         {
 
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgv_DSTT_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void btn_FPT_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
