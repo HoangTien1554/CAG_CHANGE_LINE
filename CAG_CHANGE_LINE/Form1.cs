@@ -41,5 +41,25 @@ namespace CAG_CHANGE_LINE
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_gg_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mni_ReadMe_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
