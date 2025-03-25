@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAG_CHANGE_LINE", "CAG_CHANGE_LINE\CAG_CHANGE_LINE.csproj", "{EE0B9B27-FA2F-47C3-8004-B522684E85CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0B9B27-FA2F-47C3-8004-B522684E85CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0B9B27-FA2F-47C3-8004-B522684E85CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0B9B27-FA2F-47C3-8004-B522684E85CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0B9B27-FA2F-47C3-8004-B522684E85CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D9C0321-0675-43D1-A4AB-0860F31ADC72}
+	EndGlobalSection
+EndGlobal
