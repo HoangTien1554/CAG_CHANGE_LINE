@@ -67,8 +67,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_refresh = new System.Windows.Forms.Button();
             this.mnu_Menu = new System.Windows.Forms.ToolStripMenuItem();
-            this.mni_ChinhSua = new System.Windows.Forms.ToolStripMenuItem();
-            this.mni_ReadMe = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.grb_TTM.SuspendLayout();
@@ -470,28 +468,14 @@
             this.btn_refresh.Size = new System.Drawing.Size(43, 43);
             this.btn_refresh.TabIndex = 2;
             this.btn_refresh.UseVisualStyleBackColor = true;
+            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
             // 
             // mnu_Menu
             // 
-            this.mnu_Menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mni_ChinhSua,
-            this.mni_ReadMe});
             this.mnu_Menu.Name = "mnu_Menu";
-            this.mnu_Menu.Size = new System.Drawing.Size(53, 21);
-            this.mnu_Menu.Text = "Menu";
-            // 
-            // mni_ChinhSua
-            // 
-            this.mni_ChinhSua.Name = "mni_ChinhSua";
-            this.mni_ChinhSua.Size = new System.Drawing.Size(188, 24);
-            this.mni_ChinhSua.Text = "Chỉnh ở đây nhá";
-            // 
-            // mni_ReadMe
-            // 
-            this.mni_ReadMe.Name = "mni_ReadMe";
-            this.mni_ReadMe.Size = new System.Drawing.Size(188, 24);
-            this.mni_ReadMe.Text = "Giới thiệu";
-            this.mni_ReadMe.Click += new System.EventHandler(this.mni_ReadMe_Click);
+            this.mnu_Menu.Size = new System.Drawing.Size(60, 21);
+            this.mnu_Menu.Text = "Setting";
+            this.mnu_Menu.Click += new System.EventHandler(this.mnu_Menu_Click);
             // 
             // aboutToolStripMenuItem
             // 
@@ -587,8 +571,6 @@
         private System.Windows.Forms.Label lbl_OpenDNSPing;
         private System.Windows.Forms.Label lbl_GooglePing;
         private System.Windows.Forms.ToolStripMenuItem mnu_Menu;
-        private System.Windows.Forms.ToolStripMenuItem mni_ChinhSua;
-        private System.Windows.Forms.ToolStripMenuItem mni_ReadMe;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip2;
     }

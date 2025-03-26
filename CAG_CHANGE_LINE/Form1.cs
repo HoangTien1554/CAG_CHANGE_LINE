@@ -16,9 +16,12 @@ namespace CAG_CHANGE_LINE
 {
     public partial class Form1 : Form
     {
+        private bool isPinging = false;
         public Form1()
         {
             InitializeComponent();
+            btn_refresh.Click += async (s, e) => await RefreshPing();
+            this.Load += async (s, e) => await RefreshPing();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -51,9 +54,10 @@ namespace CAG_CHANGE_LINE
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private async void Form1_Load(object sender, EventArgs e)
         {
             List<string> networkAdapters = GetActiveNetworkAdapters();
+            List<string> dnsServers = new List<string> { "8.8.8.8", "208.67.222.222", "9.9.9.9", "1.1.1.1", "185.228.168.9" };
 
             lbl_TenMay.Text = get_PCName();
             lbl_IPAdd.Text = get_IPAddr();
@@ -61,7 +65,10 @@ namespace CAG_CHANGE_LINE
             lbl_GetWay.Text = get_Gateway();
             lbl_DNS.Text = get_DNSAddressesAsString();
 
+
             cbb_basic.DataSource = networkAdapters;
+
+
         }
 
         private void btn_gg_Click(object sender, EventArgs e)
@@ -159,5 +166,42 @@ namespace CAG_CHANGE_LINE
             return adapters;
         }
 
+        private void mnu_Menu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private async Task RefreshPing()
+        {
+            List<string> dnsList = new List<string> { "1.1.1.1", "8.8.8.8", "9.9.9.9", "208.67.222.222", "185.228.168.9" }; // Danh sách DNS
+            Label[] labels = { lbl_GooglePing, lbl_OpenDNSPing, lbl_SingaporePing, lbl_CloudPing, lbl_VerizonPing }; // Gán từng Label tương ứng
+
+            for (int i = 0; i < dnsList.Count; i++)
+            {
+                long pingTime = await PingDNS(dnsList[i]);
+                labels[i].Text = $"{pingTime} ms";
+            }
+        }
+
+        private async Task<long> PingDNS(string dns)
+        {
+            using (Ping ping = new Ping())
+            {
+                try
+                {
+                    PingReply reply = await ping.SendPingAsync(dns, 1000); // Timeout 1 giây
+                    return reply.Status == IPStatus.Success ? reply.RoundtripTime : -1;
+                }
+                catch
+                {
+                    return -1; // Ping thất bại
+                }
+            }
+        }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
