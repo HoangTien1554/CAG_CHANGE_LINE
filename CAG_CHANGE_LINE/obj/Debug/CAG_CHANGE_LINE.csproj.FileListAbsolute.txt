@@ -8,3 +8,13 @@ C:\ttsK22\CAG_CHANGE_LINE\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_L
 C:\ttsK22\CAG_CHANGE_LINE\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.csproj.CoreCompileInputs.cache
 C:\ttsK22\CAG_CHANGE_LINE\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.exe
 C:\ttsK22\CAG_CHANGE_LINE\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.pdb
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\bin\Debug\CAG_CHANGE_LINE.exe.config
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\bin\Debug\CAG_CHANGE_LINE.exe
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\bin\Debug\CAG_CHANGE_LINE.pdb
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.csproj.AssemblyReference.cache
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.Form1.resources
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.Properties.Resources.resources
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.csproj.GenerateResource.cache
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.exe
+C:\Users\Hoang Tien\Desktop\CAG_CHANGE_LINE\CAG_CHANGE_LINE\obj\Debug\CAG_CHANGE_LINE.pdb

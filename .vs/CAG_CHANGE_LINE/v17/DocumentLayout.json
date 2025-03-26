@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ttsK22\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\",
+  "WorkspaceRootPath": "C:\\Users\\Hoang Tien\\Desktop\\CAG_CHANGE_LINE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE0B9B27-FA2F-47C3-8004-B522684E85CE}|CAG_CHANGE_LINE\\CAG_CHANGE_LINE.csproj|c:\\ttsk22\\cag_change_line\\cag_change_line\\cag_change_line\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EE0B9B27-FA2F-47C3-8004-B522684E85CE}|CAG_CHANGE_LINE\\CAG_CHANGE_LINE.csproj|C:\\Users\\Hoang Tien\\Desktop\\CAG_CHANGE_LINE\\cag_change_line\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EE0B9B27-FA2F-47C3-8004-B522684E85CE}|CAG_CHANGE_LINE\\CAG_CHANGE_LINE.csproj|solutionrelative:cag_change_line\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE0B9B27-FA2F-47C3-8004-B522684E85CE}|CAG_CHANGE_LINE\\CAG_CHANGE_LINE.csproj|C:\\ttsK22\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\cag_change_line\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE0B9B27-FA2F-47C3-8004-B522684E85CE}|CAG_CHANGE_LINE\\CAG_CHANGE_LINE.csproj|c:\\users\\hoang tien\\desktop\\cag_change_line\\cag_change_line\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0B9B27-FA2F-47C3-8004-B522684E85CE}|CAG_CHANGE_LINE\\CAG_CHANGE_LINE.csproj|solutionrelative:cag_change_line\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\ttsK22\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Tien\\Desktop\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs",
               "RelativeDocumentMoniker": "CAG_CHANGE_LINE\\Form1.cs",
-              "ToolTip": "C:\\ttsK22\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs",
+              "ToolTip": "C:\\Users\\Hoang Tien\\Desktop\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs",
               "RelativeToolTip": "CAG_CHANGE_LINE\\Form1.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAqwEAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T08:16:27.576Z",
               "EditorCaption": ""
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\ttsK22\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Hoang Tien\\Desktop\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs",
               "RelativeDocumentMoniker": "CAG_CHANGE_LINE\\Form1.cs",
-              "ToolTip": "C:\\ttsK22\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Hoang Tien\\Desktop\\CAG_CHANGE_LINE\\CAG_CHANGE_LINE\\Form1.cs [Design]",
               "RelativeToolTip": "CAG_CHANGE_LINE\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T08:15:58.989Z",
