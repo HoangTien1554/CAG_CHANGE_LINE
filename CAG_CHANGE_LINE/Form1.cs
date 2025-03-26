@@ -179,6 +179,18 @@ namespace CAG_CHANGE_LINE
             for (int i = 0; i < dnsList.Count; i++)
             {
                 long pingTime = await PingDNS(dnsList[i]);
+                if(pingTime< (long)(50.0))
+                {
+                    labels[i].ForeColor = Color.Green;
+                }
+                else if(pingTime < 100.0)
+                {
+                    labels[i].ForeColor = Color.Orange;
+                }
+                else
+                {
+                    labels[i].ForeColor = Color.Red;
+                }
                 labels[i].Text = $"{pingTime} ms";
             }
         }
